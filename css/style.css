@@ -328,7 +328,7 @@ nav ul li:hover{
 
 .container-content .article-list .item .desc{
 	float:left;
-	width:80%;
+	width:95%;
 	overflow:hidden;
 	box-sizing: border-box;/*不让padding影响元素的宽度*/
 	padding:15px;
