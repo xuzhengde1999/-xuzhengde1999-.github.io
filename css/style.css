@@ -1,3 +1,51 @@
+@media(max-width:1020px)
+{
+	/* 网页头 */
+	.header{
+		width: 90%;
+	}
+	.header .logo{
+		width: 100%;
+		overflow: hiddeen;
+	}
+	.header .logo .logo-text{
+		width: 50%;
+		font-size: 25px;
+		overflow: hidden;
+	}
+	.header .right-block{
+		display:none;
+	}
+	/* 导航栏 */
+	#nav{
+		width: 90%;
+		overflow: hidden;
+	}
+	/* 照片墙 */
+	.youtiy_slider{
+		display: none;
+	}
+	/* 内容 */
+	.container-content{
+		width: 100%;
+	}
+	.container-content .article-list{
+		width: 50%;
+	}
+	.item{
+		font-size: 13px;
+		margin-left: 5%;
+		overflow: hidden;
+	}
+	/* 站内搜索 */
+	.right-fun{
+		display: none;
+	}
+	/* 页脚 */
+	.footer{
+		width: 90%;
+	}
+}
 @charset "utf-8";
 *{
 	font-family: 思源黑体 CN;
@@ -6,7 +54,7 @@
 }
 
 body{
-	overflow-x:hidden;
+	/*overflow-x:hidden;*/
 }
 
 a:link {
@@ -159,7 +207,7 @@ nav ul li:hover{
 .youtiy_slider {
 	width:1000px;
 	min-width:980px;
-	height:600px;
+	height:335px;
 	position:relative;
 	left:425;
 	overflow:hidden;
