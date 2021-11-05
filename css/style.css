@@ -131,7 +131,7 @@ nav ul{
 
 nav ul li{
 	 list-style-type:none;
-	 float:right; /* 向左漂移，将竖排变为横排 */
+	 /* 向左漂移，将竖排变为横排 */
 	 color:white;
 	 height:45px;
 	 width:100px;
