@@ -161,6 +161,7 @@ nav ul li:hover{
 	min-width:980px;
 	height:600px;
 	position:absolute;
+	left:425;
 	overflow:hidden;
 	background:#fff;
 	text-align:center;
