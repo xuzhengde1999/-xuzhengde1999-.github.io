@@ -382,7 +382,7 @@ nav ul li:hover{
 	box-sizing: border-box;/*不让padding影响元素的宽度*/
 	padding:15px;
 	font-size:.1.2em;
-	line-height:30px;
+	line-height:29px;
 	color:#696969;
 	text-indent:30px;
 	margin-top:-35px;
