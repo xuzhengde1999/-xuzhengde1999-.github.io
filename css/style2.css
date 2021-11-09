@@ -438,25 +438,7 @@ nav ul li:hover{
 	height:140px;
 }
 
-.right-fun .model .menu span{
-	display:block;
-	width:100px;
-	height:35px;
-	background:#F2F2F2;
-	float:left;
-	margin:15px;
-	line-height:35px;
-	-webkit-border-radius: 10pnx;
-    border-radius: 10px;
-	color:#FF6A6A;
-	text-align:center;
-	margin-top:auto px;
-	
-	-webkit-transition: -webkit-transform 0.4s ease-out;
-	-moz-transition: -moz-transform 0.4s ease-out;
-	-o-transition: -o-transform 0.4s ease-out;
-	-ms-transition: -ms-transform 0.4s ease-out;
-}
+
 
 .right-fun .model .menu span:hover {
 	-webkit-transform: rotateZ(360deg);
