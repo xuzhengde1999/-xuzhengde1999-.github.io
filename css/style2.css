@@ -397,7 +397,8 @@ nav ul li:hover{
 .right-fun .model{
 	width:100%;
 	border:2px solid #F4F4F4;
-	margin-top:20px;
+	margin-top:-310px;
+	margin-left:300px;
 	background:white;
 }
 
@@ -445,10 +446,11 @@ nav ul li:hover{
 	float:left;
 	margin:15px;
 	line-height:35px;
-	-webkit-border-radius: 10px;
+	-webkit-border-radius: 10pnx;
     border-radius: 10px;
 	color:#FF6A6A;
 	text-align:center;
+	margin-top:auto px;
 	
 	-webkit-transition: -webkit-transform 0.4s ease-out;
 	-moz-transition: -moz-transform 0.4s ease-out;
@@ -470,6 +472,7 @@ nav ul li:hover{
 
 .right-fun .recommend{
 	width:280px;
+	height:320px;
 }
 
 /*搜索框7*/  
