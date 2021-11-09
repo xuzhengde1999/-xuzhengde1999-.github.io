@@ -1,51 +1,3 @@
-@media(max-width:1020px)
-{
-	/* 网页头 */
-	.header{
-		width: 90%;
-	}
-	.header .logo{
-		width: 100%;
-		overflow: hiddeen;
-	}
-	.header .logo .logo-text{
-		width: 50%;
-		font-size: 25px;
-		overflow: hidden;
-	}
-	.header .right-block{
-		display:none;
-	}
-	/* 导航栏 */
-	#nav{
-		width: 90%;
-		overflow: hidden;
-	}
-	/* 照片墙 */
-	.youtiy_slider{
-		display: none;
-	}
-	/* 内容 */
-	.container-content{
-		width: 100%;
-	}
-	.container-content .article-list{
-		width: 50%;
-	}
-	.item{
-		font-size: 13px;
-		margin-left: 5%;
-		overflow: hidden;
-	}
-	/* 站内搜索 */
-	.right-fun{
-		display: none;
-	}
-	/* 页脚 */
-	.footer{
-		width: 90%;
-	}
-}
 @charset "utf-8";
 *{
 	font-family: 思源黑体 CN;
@@ -54,7 +6,7 @@
 }
 
 body{
-	/*overflow-x:hidden;*/
+	overflow-x:hidden;
 }
 
 a:link {
@@ -209,7 +161,6 @@ nav ul li:hover{
 	min-width:980px;
 	height:335px;
 	position:relative;
-	left:425;
 	overflow:hidden;
 	background:#fff;
 	text-align:center;
@@ -333,12 +284,12 @@ nav ul li:hover{
 
 .container-content .article-list .item .art-img{
 	float:left;
-	width:0%;
+	width:40%;
 	overflow:hidden;
 }
 
 .container-content .article-list .item .art-img img{
-	width:0%;
+	width:98%;
 	margin:0px auto;
 	margin-left:10px;
 	margin-top:10px;
@@ -376,7 +327,7 @@ nav ul li:hover{
 
 .container-content .article-list .item .desc{
 	float:left;
-	width:95%;
+	width:60%;
 	overflow:hidden;
 	box-sizing: border-box;/*不让padding影响元素的宽度*/
 	padding:15px;
