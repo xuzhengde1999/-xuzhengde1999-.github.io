@@ -1,12 +1,60 @@
+@media(max-width:1020px)
+{
+	/* 网页头 */
+	.header{
+		width: 90%;
+	}
+	.header .logo{
+		width: 100%;
+		overflow: hiddeen;
+	}
+	.header .logo .logo-text{
+		width: 50%;
+		font-size: 25px;
+		overflow: hidden;
+	}
+	.header .right-block{
+		display:none;
+	}
+	/* 导航栏 */
+	#nav{
+		width: 90%;
+		overflow: hidden;
+	}
+	/* 照片墙 */
+	.youtiy_slider{
+		display: none;
+	}
+	/* 内容 */
+	.container-content{
+		width: 100%;
+	}
+	.container-content .article-list{
+		width: 50%;
+	}
+	.item{
+		font-size: 13px;
+		margin-left: 5%;
+		overflow: hidden;
+	}
+	/* 站内搜索 */
+	.right-fun{
+		display: none;
+	}
+	/* 页脚 */
+	.footer{
+		width: 90%;
+	}
+}
 @charset "utf-8";
 *{
 	font-family: 思源黑体 CN;
-	margin:0px;
+	margin:px;
 	padding:0px;
 }
 
 body{
-	overflow-x:hidden;
+	/*overflow-x:hidden;*/
 }
 
 a:link {
@@ -68,6 +116,7 @@ a:active {
 			box-shadow:0 0 0 2px #fff;
 			float:left;
 			margin-left:5px;
+	                margin-top:-13px;
        }
 /***鼠标悬浮图片旋转360度 begin***/
 
@@ -165,6 +214,7 @@ nav ul li:hover{
 	background:#fff;
 	text-align:center;
 	margin:15px auto;
+	margin-left:335px
 }
 .youtiy_slider .bd {
 	width:980px;
@@ -267,7 +317,7 @@ nav ul li:hover{
 }
 
 .container-content .article-list{
-	width:700px;
+	width:1000px;
 	float:left;
 }
 
@@ -284,12 +334,12 @@ nav ul li:hover{
 
 .container-content .article-list .item .art-img{
 	float:left;
-	width:40%;
+	width:0%;
 	overflow:hidden;
 }
 
 .container-content .article-list .item .art-img img{
-	width:98%;
+	width:0%;
 	margin:0px auto;
 	margin-left:10px;
 	margin-top:10px;
@@ -317,7 +367,7 @@ nav ul li:hover{
 	 color:black;
 	 height:60px;
 	 text-align:left;
-	 line-height:50px;
+	 line-height:0px;
 	 margin-left:10px;
 	 font-size:.1em;
 	 color:#696969;
@@ -327,15 +377,15 @@ nav ul li:hover{
 
 .container-content .article-list .item .desc{
 	float:left;
-	width:60%;
+	width:98%;
 	overflow:hidden;
 	box-sizing: border-box;/*不让padding影响元素的宽度*/
 	padding:15px;
 	font-size:.1.2em;
-	line-height:30px;
+	line-height:29px;
 	color:#696969;
 	text-indent:30px;
-	margin-top:-15px;
+	margin-top:-35px;
 }
 
 /*右侧区域*/
@@ -345,18 +395,19 @@ nav ul li:hover{
 }
 
 .right-fun .model{
-	width:100%;
-	border:2px solid #F4F4F4;
-	margin-top:20px;
+	width:0%;
+	border:0px solid #F4F4F4;
+	margin-top:-310px;
+	margin-left:300px;
 	background:white;
 }
 
 .right-fun .model .title{
 	border-left:3px solid red;
-	height:30px;
+	height:0px;
 	padding-left:10px;
 	box-sizing: border-box;/*不让padding影响元素的宽度*/
-	font-weight:800;
+	font-weight:0;
 	line-height:30px;
 }
 
@@ -383,28 +434,11 @@ nav ul li:hover{
 }
 
 .right-fun .model .menu{
-	width:100%;
-	height:140px;
+	width:0%;
+	height:0px;
 }
 
-.right-fun .model .menu span{
-	display:block;
-	width:100px;
-	height:35px;
-	background:#F2F2F2;
-	float:left;
-	margin:15px;
-	line-height:35px;
-	-webkit-border-radius: 10px;
-    border-radius: 10px;
-	color:#FF6A6A;
-	text-align:center;
-	
-	-webkit-transition: -webkit-transform 0.4s ease-out;
-	-moz-transition: -moz-transform 0.4s ease-out;
-	-o-transition: -o-transform 0.4s ease-out;
-	-ms-transition: -ms-transform 0.4s ease-out;
-}
+
 
 .right-fun .model .menu span:hover {
 	-webkit-transform: rotateZ(360deg);
@@ -419,7 +453,8 @@ nav ul li:hover{
 }
 
 .right-fun .recommend{
-	width:280px;
+	width:0px;
+	height:0px;
 }
 
 /*搜索框7*/  
@@ -442,13 +477,13 @@ button {
 	padding-right:10px;
 }
 .bar7 input {
-	width:200px;
+	width:0px;
 	border-radius:42px;
-	border:2px solid #324B4E;
+	border:0px solid #324B4E;
 	background:white;
 	transition:.3s linear;
 	float:right;
-	height:35px;
+	height:0px;
 	margin-top:10px;
 	outline:none;
 }
@@ -461,7 +496,7 @@ button {
 	right:20px;
 }
 .bar7 button:before {
-	content:"Search";
+	content:;
 	font-family:FontAwesome;
 	color:#324b4e;
 }
