@@ -317,7 +317,7 @@ nav ul li:hover{
 }
 
 .container-content .article-list{
-	width:700px;
+	width:1000px;
 	float:left;
 }
 
@@ -496,7 +496,7 @@ button {
 	right:20px;
 }
 .bar7 button:before {
-	content:"Search";
+	content:;
 	font-family:FontAwesome;
 	color:#324b4e;
 }
