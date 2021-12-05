@@ -115,7 +115,7 @@ a:active {
 			height:30px;
 			box-shadow:0 0 0 2px #fff;
 			float:left;
-			margin-left:5px;
+			margin-left:-50px;
 	                margin-top:-13px;
        }
 /***鼠标悬浮图片旋转360度 begin***/
@@ -358,7 +358,7 @@ nav ul li:hover{
 .container-content .article-list .item .base-info{
 	float:left;
 	width:60%;
-	height:50px;
+	height:40px;
 }
 
 .container-content .article-list .item .base-info ul li{
