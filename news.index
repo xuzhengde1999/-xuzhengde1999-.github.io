@@ -42,7 +42,8 @@
 			<li class="mb"></li>
 			<li class="ma"><a class="menua" href="http://pspal.shanghaitech.edu.cn/contacts.html">Labmanual</a></li>
 			<li class="mb"></li>
-
+                        <li class="ma"><a class="menua" href="http://pspal.shanghaitech.edu.cn/news.html">News</a></li>
+			<li class="mb"></li>
             <div class="clear">
             </div>
         </ul>
