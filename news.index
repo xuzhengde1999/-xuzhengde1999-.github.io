@@ -30,19 +30,19 @@
         <ul>
             <li class="ma"><a class="menua" href="http://pspal.shanghaitech.edu.cn/index.html" style = "background:#FFFFFF">Home</a></li>
 			<li class="mb"></li>
-			<li class="ma"><a class="menua" href="http://pspal.shanghaitech.edu.cn/news.html">Research</a></li>
+			<li class="ma"><a class="menua" href="http://pspal.shanghaitech.edu.cn/Research.html">Research</a></li>
 			<li class="mb"></li>
-			<li class="ma"><a class="menua" href="http://pspal.shanghaitech.edu.cn/people.html">Group</a></li>
+			<li class="ma"><a class="menua" href="http://pspal.shanghaitech.edu.cn/Group.html">Group</a></li>
 			<li class="mb"></li>
-			<li class="ma"><a class="menua" href="http://pspal.shanghaitech.edu.cn/Code.html">Openings</a></li>
+			<li class="ma"><a class="menua" href="http://pspal.shanghaitech.edu.cn/Openings.html">Openings</a></li>
 			<li class="mb"></li>
-			<li class="ma"><a class="menua" href="http://pspal.shanghaitech.edu.cn/courses.html">Teaching</a></li>
+			<li class="ma"><a class="menua" href="http://pspal.shanghaitech.edu.cn/Teaching.html">Teaching</a></li>
 			<li class="mb"></li>
-			<li class="ma"><a class="menua" href="http://pspal.shanghaitech.edu.cn/resources.html">Personal</a></li>
+			<li class="ma"><a class="menua" href="http://pspal.shanghaitech.edu.cn/Personal.html">Personal</a></li>
 			<li class="mb"></li>
-			<li class="ma"><a class="menua" href="http://pspal.shanghaitech.edu.cn/contacts.html">Labmanual</a></li>
+			<li class="ma"><a class="menua" href="http://pspal.shanghaitech.edu.cn/Labmanual.html">Labmanual</a></li>
 			<li class="mb"></li>
-                        <li class="ma"><a class="menua" href="http://pspal.shanghaitech.edu.cn/news.html">News</a></li>
+                        <li class="ma"><a class="menua" href="http://pspal.shanghaitech.edu.cn/News.html">News</a></li>
 			<li class="mb"></li>
             <div class="clear">
             </div>
