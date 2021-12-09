@@ -66,7 +66,6 @@
 
 	<div class="title">
   	<p> Openings</p>
-	<br/><br/>
     <p style="text-align: justify">
     <font size="3"> Zhifeng Zhu will start his lab from Feb. 2020. Master students, Postdoc and Research Engineer positions will be immediately available.Some recruitment information can be find here</font>
     </p>
@@ -76,11 +75,12 @@
   <tbody> 
   
   <tr>
-      <td width="250" align="left" valign="top"><font size="5">Master students(研究生)</font></td>
-      <br/><br/>
+      <td width="350" align="left" valign="top"><font size="5">Master students(研究生)</font></td>
+      
       <td width="5" align="right" valign="top"></td>
       <td width="935" align="left">
     <p style="text-align: justify">
+    <br/>
     <font size="3">SIST@ShanghaiTech教授风采|电子科学与技术|祝智峰</font>
     </p>
 	</td>
