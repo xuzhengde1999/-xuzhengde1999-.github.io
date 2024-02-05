@@ -50,12 +50,12 @@ section, footer {
 
 /* ...其他媒体查询和样式根据需要进行调整 */
 
+/* 更新媒体查询中的样式，这里只是一个示例 */
 @media print, screen and (max-width: 960px) {
-
-  div.wrapper {
-    width:auto;
-    margin:0;
+  header ul {
+    flex-direction: column; /* 在小屏幕上导航变为垂直排列 */
   }
+}
 
   header, section, footer {
     float:none;
