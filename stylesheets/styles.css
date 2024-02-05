@@ -1,126 +1,76 @@
-/* 更新header的样式 */
+/* 基础样式保持不变 */
+
+/* 移动header的样式到顶部并使其横向排列 */
 header {
   width: 100%; /* 设置宽度为100% */
+  margin: 0 auto; /* 居中对齐 */
   float: none;
-  position: static; /* 取消固定定位 */
+  position: static; /* 非固定定位 */
+  display: block; /* 以块状元素显示 */
+  background-color: #f4f4f4; /* 背景色，可根据实际情况调整 */
   box-sizing: border-box; /* 确保内边距不影响宽度 */
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
-/* 使用flexbox布局使导航项横向排布 */
+/* 使用flexbox来布局导航链接 */
 header ul {
   list-style: none;
+  margin: 0;
   padding: 0;
-  margin: 0; /* 新增的样式 */
-  background: #f4f4f4;
-  border-radius: 0; /* 可能需要移除圆角 */
-  border: none; /* 可能需要移除边框 */
-  width: 100%; /* 设置宽度为100% */
-  display: flex; /* 设置为flexbox布局 */
-  justify-content: center; /* 水平居中 */
-  align-items: center; /* 垂直居中 */
+  display: flex; /* 启用flexbox */
+  justify-content: center; /* 项目在主轴居中对齐 */
+  align-items: center; /* 项目在交叉轴居中对齐 */
 }
 
-/* 移除header li的浮动，并设置它们的宽度为自动 */
+/* 调整导航项样式 */
 header li {
-  float: none;
-  border-right: none; /* 可能需要移除边框 */
-  width: auto; /* 设置宽度为自动 */
-  display: block; /* 设置为块级元素 */
+  border-right: none; /* 移除不需要的边框 */
 }
 
-/* 更新链接样式以填充flex项 */
+/* 调整导航链接样式 */
 header ul a {
   line-height: 1.5;
-  font-size: 14px; /* 可以调整大小以适应新的布局 */
+  padding: 10px 15px; /* 增加内边距 */
+  font-size: 14px; /* 字体大小可根据需要调整 */
   color: #999;
   display: block;
   text-align: center;
-  padding: 10px 15px; /* 增加内边距以适应新的布局 */
 }
 
-/* 调整section和footer的样式以适应新的布局 */
+/* section和footer样式调整，确保在导航栏下方显示 */
 section, footer {
-  width: auto; /* 设置宽度为自动 */
-  float: none; /* 移除浮动 */
-  position: static; /* 移除固定定位 */
-  padding: 20px; /* 增加内边距 */
-  box-sizing: border-box; /* 确保内边距不影响宽度 */
+  width: 100%; /* 宽度设为100% */
+  margin-top: 20px; /* 或更大的值，确保在导航栏下方有足够空间 */
 }
 
-/* ...其他媒体查询和样式根据需要进行调整 */
+/* 移除不再需要的浮动和固定定位样式 */
+.wrapper, footer {
+  float: none;
+  position: static;
+}
 
-/* 更新媒体查询中的样式，这里只是一个示例 */
-@media print, screen and (max-width: 960px) {
+/* 确保在小屏幕上导航栏的显示效果也是横向的 */
+@media screen and (max-width: 960px) {
   header ul {
-    flex-direction: column; /* 在小屏幕上导航变为垂直排列 */
+    flex-direction: row; /* 保持横向排列 */
   }
 }
 
+/* 在更小屏幕上的调整 */
+@media screen and (max-width: 720px) {
   header, section, footer {
-    float:none;
-    position:static;
-    width:auto;
+    width: 100%; /* 宽度设为100%，确保在小屏幕上也是全宽 */
   }
+}
 
-  header {
-    padding-right:320px;
-  }
-
-  section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px 0;
-    margin:0 0 20px;
-  }
-
-  header a small {
-    display:inline;
-  }
-
+@media screen and (max-width: 480px) {
   header ul {
-    position:absolute;
-    right:50px;
-    top:52px;
+    flex-direction: row; /* 同样保持横向排列 */
   }
-}
-
-@media print, screen and (max-width: 720px) {
-  body {
-    word-wrap:break-word;
-  }
-
-  header {
-    padding:0;
-  }
-
-  header ul, header p.view {
-    position:static;
-  }
-
-  pre, code {
-    word-wrap:normal;
-  }
-}
-
-@media print, screen and (max-width: 480px) {
-  body {
-    padding:15px;
-  }
-
+  
+  /* 调整小屏幕上的header ul宽度 */
   header ul {
-    width:99%;
+    width: 100%; /* 宽度设为100% */
   }
 
-  header li, header ul li + li + li {
-    width:33%;
-  }
-}
-
-@media print {
-  body {
-    padding:0.4in;
-    font-size:12pt;
-    color:#444;
-  }
-}
+  header li,
